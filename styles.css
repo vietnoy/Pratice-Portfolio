@@ -1,0 +1,106 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h1 {
+    letter-spacing: 10px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.occupation {
+    height: 100px;
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(255, 192, 203, 0.448);
+}
+
+.info {
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.challenges {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.challenge {
+    height: 180px;
+    width: 210px;
+    border-radius: 15px;
+    background-color: rgba(247, 239, 239, 0.67);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.challenge:hover {
+    background-color: rgb(165, 160, 160);
+    transform: scale(1.12);
+}
+
+.content {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.specialties {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#specialties {
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+@keyframes sliding {
+    0% {transform: translateX(0px);
+        opacity: 0;}
+    100% {transform: translateX(40px);
+    opacity: 1;}
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.occupation {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.jobs {
+    font-size: 30px;
+}
